@@ -1,6 +1,5 @@
 <?php
-function calcular($numero1, $numero2, $operacao)
-{
+function calcular($numero1, $numero2, $operacao) {
     switch ($operacao) {
         case 'soma':
             return $numero1 + $numero2;
