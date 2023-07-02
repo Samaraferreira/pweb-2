@@ -11,10 +11,10 @@ function calcular($numero1, $numero2, $operacao) {
             if ($numero2 != 0) {
                 return $numero1 / $numero2;
             } else {
-                return "Erro: Divisão por zero!";
+                return "Erro - Divisão por zero!";
             }
         default:
-            return "Erro: Operação inválida!";
+            return "Erro - Operação inválida!";
     }
 }
 
